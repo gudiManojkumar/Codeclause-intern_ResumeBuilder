@@ -1,16 +1,20 @@
 # Interactive Resume Builder
 
-Welcome to the Interactive Resume Builder! This application allows users to enter their personal details, preview their resume, and export it as a PDF.
+Welcome to the Interactive Resume Builder! This web application allows users to create, customize, and export professional resumes effortlessly.
 
 ## Features
 
-- **Interactive Form**: Users can input their personal information, objective, education, skills, and experience.
-- **Live Preview**: As users input their information, the resume preview updates in real-time.
-- **Export to PDF**: Users can export their resume as a PDF with a single click.
+- **Landing Page**: A welcoming landing page with information about the benefits of using the resume builder.
+- **Resume Builder**: An intuitive form for entering personal information, objectives, education, skills, and experience.
+- **Live Preview**: A real-time preview of the resume as you fill out the form.
+- **Export as PDF**: Easily export your completed resume to PDF format.
 
 ## Technologies Used
 
-- **HTML5**
-- **CSS3** (with Bootstrap 4.5)
-- **JavaScript**
-- **html2pdf.js** for PDF export functionality
+- HTML
+- CSS
+- JavaScript
+- Bootstrap 4
+- Font Awesome
+- jsPDF
+
