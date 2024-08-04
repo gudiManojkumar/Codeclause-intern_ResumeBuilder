@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Builder</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .landing-page {
+            background-color: gainsboro;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .header-container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .info-section {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            animation: fadeIn 2s;
+        }
+        .info-icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <div class="container text-center">
+            <div class="header-container mb-5">
+                <h1>Welcome to the Interactive Resume Builder</h1>
+                <p>Create your professional resume effortlessly.</p>
+                <a href="resume-builder.html" class="btn btn-primary btn-lg mt-4">Get Started</a>
+            </div>
+            <div class="info-section row">
+                <div class="col-md-4">
+                    <i class="fas fa-briefcase info-icon"></i>
+                    <h4>Advance Your Career</h4>
+                    <p>Craft resumes that help you stand out and get noticed by employers.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-laptop-code info-icon"></i>
+                    <h4>Flexible & Easy to Use</h4>
+                    <p>Our intuitive builder makes it easy to create and customize your resume.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-lock info-icon"></i>
+                    <h4>Secure and Confidential</h4>
+                    <p>Your personal data is safe with us. We prioritize your privacy and security.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center mt-5">
+            <p>&copy; Interactive Resume Builder</p>
+        </footer>
+    </div>
+</body>
+</html>
