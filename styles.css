@@ -5,12 +5,25 @@ body {
     color: #333;
 }
 
+
+
 .container {
     max-width: 1200px;
 }
 
 header h1 {
-    color: #333;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+main p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 .form-section, .preview-section {
@@ -29,8 +42,4 @@ form {
     padding: 20px;
     border-radius: 10px;
     background: #f9f9f9;
-}
-
-footer {
-    color: #777;
 }
